@@ -10,8 +10,8 @@ delete_frame = None
 
 # Connect to MongoDB
 client = MongoClient("mongodb://localhost:27017/")
-db = client["CollegeData"]
-collection = db["students"]
+db = client["ClassDatabase"]
+collection = db["studentdata"]
 
 # Main window
 app = tk.Tk()
